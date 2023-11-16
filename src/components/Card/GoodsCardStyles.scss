@@ -1,0 +1,83 @@
+.price, .price_basket, .title, .title_basket {
+  font-family: Montserrat, SansSerif, serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.description, .description_basket, .favorites a, .delete {
+  font-family: Montserrat, SansSerif, serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #888888;;
+}
+
+.card_purchase_container {
+  display: flex;
+  justify-content: end;
+}
+
+.icon_add_to_basket, .icon_add_to_wishlist {
+  position: relative;
+  z-index: 20;
+  top: 34px;
+  right: 10px;
+  display: inline;
+  cursor: pointer;
+}
+
+.product_image {
+  transition: 1s linear 1s;
+  position: relative;
+  z-index: 30;
+}
+
+.product_image:hover, {
+  transition: 1s linear 1s;
+  z-index: 10;
+}
+
+.icon_add_to_basket:hover, .icon_add_to_wishlist:hover {
+  transition: 1s linear 1s;
+  z-index: 50;
+}
+
+//For Basket Basked
+.card_container_basket {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #CCCCCC;
+  padding: 20px 0 20px 0;
+}
+
+.product_info_container_basket {
+  max-width: 276px;
+}
+
+.product_image_basket {
+  width: 173px;
+  height: 173px;
+  margin-right: 20px;
+  @media screen and (max-width: 400px) {
+    display: none;
+  }
+}
+
+.favorites a, .delete {
+  line-height: 29px;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 20px;
+  color: #000;
+  text-decoration: underline;
+}
+
+.card_buttons {
+  margin-top: 40px;
+
+}

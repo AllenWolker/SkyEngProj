@@ -1,0 +1,21 @@
+.goods {
+  display: grid;
+  gap: 20px;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  margin: 0 120px;
+
+}
+
+.filter_container {
+  display: flex;
+  justify-content: end;
+  margin-right: 120px;
+}
+
+.filter {
+  height: 38px;
+  border: 1px solid #C4C4C4;
+  border-radius: 20px;
+  margin: 20px 0;
+}
