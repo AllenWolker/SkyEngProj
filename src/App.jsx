@@ -62,7 +62,7 @@ export const ProductsContext = React.createContext(null)
 export default function App() {
     const [productsContext, setProducts] = useState(products)
     return (
-        <BrowserRouter basename="/">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <div className="header">
                 <span className="logo">Интерьер.</span>
                 <div className="menu_container">
